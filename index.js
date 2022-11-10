@@ -1,8 +1,14 @@
-var express = require('express');
-var app = express();
-app.get('concat',function (rep, res) {
-    res.send('Hello node');
-});
-app.listen(3000,function (rep, res) {
-    console.log('Hello node port 3000');
-});
+const express = require('express');
+const app = express();
+const port = 4000;
+
+app.get('/', function(req, res){
+    res.send("Hello World");
+})
+
+app.listen(port, function(error){
+    if (error) {
+        console.log("Something went wrong");
+    }
+    console.log("server is running port:  " + port);
+})

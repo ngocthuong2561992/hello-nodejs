@@ -1,0 +1,22 @@
+{
+  "name": "hello-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocthuong2561992/hello-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocthuong2561992/hello-nodejs/issues"
+  },
+  "homepage": "https://github.com/ngocthuong2561992/hello-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
